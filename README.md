@@ -1,6 +1,9 @@
-# Documentacion de factuz
+# Factuz.com
 
 
-[🇪🇸 Español](/) | [🇬🇧 English](/en/) | [🇫🇷 Français](/fr/)
+
+[🇪🇸 Español](/001/es/) | [🇬🇧 English](/001/en/) | [🇫🇷 Français](/001/fr/)
+
+
 
 
