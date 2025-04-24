@@ -1,5 +1,5 @@
 # Introducción
-  - [Inicio](README.md)
+  - [Inicio](/002/es/README.md)
 
 # Facturas
   - [Listar](002/es/facturas/listar.md)
