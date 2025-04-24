@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Factuz Docs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+        <style>
+            body {
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .sidebar {
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">Cargando documentación...</div>
+
+        <!-- Docsify Core -->
+        <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+        <!-- Plugin: TOC (Tabla de Contenidos Automática) -->
+        <script src="//unpkg.com/docsify-plugin-toc/dist/docsify-plugin-toc.min.js"></script>
+
+        <script>
+            window.$docsify = {
+                name: '📄 Factuz',
+                repo: '',
+                loadSidebar: true,
+                loadNavbar: false,
+                subMaxLevel: 2,
+                alias: {
+                    '/es/.*/_sidebar.md': '/es/_sidebar.md',
+                    '/en/.*/_sidebar.md': '/en/_sidebar.md',
+                    '/fr/.*/_sidebar.md': '/fr/_sidebar.md',
+                },
+                toc: {
+                    tocMaxLevel: 3,
+                    target: 'h2, h3',
+                },
+                plugins: [
+                    window.DocsifyPluginToc
+                ]
+            }
+        </script>
+    </body>
+</html>
